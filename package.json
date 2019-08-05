@@ -1,0 +1,24 @@
+{
+  "name": "grpc-example",
+  "version": "1.0.0",
+  "description": "Implementation of gRPC framework using NodeJS",
+  "main": "client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orderstack/grpc-example.git"
+  },
+  "author": "OrderStack",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/orderstack/grpc-example/issues"
+  },
+  "homepage": "https://github.com/orderstack/grpc-example#readme",
+  "dependencies": {
+    "@grpc/proto-loader": "^0.5.1",
+    "grpc": "^1.22.2"
+  }
+}

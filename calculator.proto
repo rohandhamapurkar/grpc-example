@@ -1,0 +1,19 @@
+syntax = "proto3";
+package calculator;
+
+// The example service definition.
+service CalculatorService {
+  // Multiplication function
+  rpc Multiply (RequestArgument) returns (ReturnData) {}
+}
+
+// The request message containing the 2 numbers to add.
+message RequestArgument {
+  int32 num1 = 1;
+  int32 num2 = 2;
+}
+
+// The response message result
+message ReturnData {
+    int32 result = 1;
+}
